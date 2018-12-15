@@ -1,9 +1,9 @@
 body {
-    background: #9baeb7;
+    background: #ff9597;
 }
 
 h1{
-    color: #ffe80d;
+    color: #1e9122;
     margin-left:4%;
 }
 
@@ -59,6 +59,7 @@ h1{
     margin: 0 auto;
     background-color: #fff;
     border: 2px solid #616161;
+    border-radius: 20px;
 }
 
 .form-title {

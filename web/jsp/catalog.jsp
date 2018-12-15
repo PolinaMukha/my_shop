@@ -25,7 +25,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="/image/logo2.png" width="150" height="30" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="/image/logo.png" width="150" height="30" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -108,7 +108,7 @@
                             </div>
                             <a href="controller?command=show_description&idGoods=${goods.idGoods}" class="r-cat-img">
                                 <img class="shk-image"
-                                     src="assets/images/gejnery-belkovo-uglevodnye-smesi/dymatize-super-mass-gainer-chocolate-6-lbs.jpg"
+                                     src="image/goods/${goods.name}.png"
                                      alt=${goods.name} title=${goods.name}>
                             </a>
                             <div class="r-cat-other">

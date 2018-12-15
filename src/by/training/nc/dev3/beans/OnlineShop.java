@@ -3,7 +3,7 @@ package by.training.nc.dev3.beans;
 
 public class OnlineShop extends Entity {
     private int id_shop;
-    private String name = "sportix";
+    private String name = "online_shop";
     private double profit;
     private String description;
 

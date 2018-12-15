@@ -24,7 +24,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="/image/logo2.png" width="150" height="30" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="/image/logo.png" width="150" height="30" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
@@ -105,9 +105,9 @@
                         <div class="product-acii">
                             <div class="prod_new1">${newLabel}</div>
                         </div>
-                        <a href="assets/images/energetiki/no-xplode_30serv_blueraz.jpg" class="fancybox"><img
+                        <a href="image/goods/<c:out value="${ goods.name }"/>.png" class="fancybox"><img
                                 class="shk-image" alt=" <c:out value="${ goods.name }"/>"
-                                src="assets/images/energetiki/no-xplode_30serv_blueraz.jpg"></a>
+                                src="image/goods/<c:out value="${ goods.name }"/>.png"></a>
                     </div>
                 </div>
                 <div class="product-other">
